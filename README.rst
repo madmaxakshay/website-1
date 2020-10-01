@@ -98,7 +98,7 @@ To run testuite execute:
     ./manage.py test
 
 
-Deployment
+DEPLOYMENT
 ----------
 
 Cron jobs:
@@ -119,7 +119,7 @@ File releases scan:
     # Import new themes from file storage
     ./manage.py import_themes
 
-License
+LICENSE
 -------
 
 The website generator is licensed under GNU GPL version 2 or later.
