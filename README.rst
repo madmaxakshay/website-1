@@ -12,13 +12,13 @@ Django code for phpMyAdmin's website.
 .. image:: https://api.codacy.com/project/badge/Grade/4cfc116f766947dcad6c006b295aafc2    
     :target: https://www.codacy.com/app/phpMyAdmin/website
 
-Requirements
+REQUIREMENTS
 ------------
 
 Website needs Python 2.7, additional dependencies are listed in `requirements.txt`.
 
 
-Security announcements and news
+SECURITY ANNOUNCEMENTS AND NEWS
 -------------------------------
 
 Edit announcements and news entries in the web UI.
@@ -28,38 +28,38 @@ The are accessible through separate URL (you can click `View on the site` link
 while editing).
 
 
-Page generating
+PAGE GENERATING
 ---------------
 
 Each page has its own template. For most things it means inclusion of
 other templates to generate full page.
 
-Menu
+MENU
 ----
 
 Menu is configured in data/menu.py, the first element always means page name
 second menu item title.
 
 
-Themes
+THEMES
 ------
 
 Themes require additional metadata, which is stored in data/themes.py.
 
 
-Awards
+AWARDS
 ------
 
 All awards are listed in data/awards.py.
 
 
-Screenshots
+SCREENSHOTS
 -----------
 
 All screenshots are listed in data/screenshots.py.
 
 
-Development
+DEVELOPMENT
 -----------
 
 For development, first install dependencies. The ones needed for running the
